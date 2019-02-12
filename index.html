@@ -4,10 +4,27 @@
     <meta charset="UTF-8">
     <title>相册</title>
     <style>
-        body {
-            background: url(images/5e7b4a91a3d3423d154a5372103021cf.jpg) no-repeat center 0;
-            background-size:cover;
+        @media screen and (min-width: 320px) and (max-width: 480px){
+            body {
+                background: url(images/phone.jpg) no-repeat center 0;
+                background-size:cover;
+            }
         }
+
+        @media only screen and (min-width: 321px) and (max-width: 1024px){
+            body {
+                background: url(images/phone.jpg) no-repeat center 0;
+                background-size:cover;
+            }
+        }
+
+        @media only screen and (min-width: 1029px){
+            body {
+                background: url(images/pc.jpg) no-repeat center 0;
+                background-size:cover;
+            }
+        }
+
     </style>
     <script type="text/javascript" src="js/extras/jquery.min.1.7.js"></script>
     <script type="text/javascript" src="js/extras/modernizr.2.5.3.min.js"></script>
